@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practo_Colon</title>
+
+    <link rel="icon" type="image/x-icon" href="./image/favicon.ico">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./image/Practo_new_logo.png" alt="logo" height="25px" id="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav-item-left">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Find Doctor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Video Consult</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Lab Tests</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Surgeries</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="navbar-nav me-1 mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                For Corporates
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Health & Wellness Plans</a></li>
+                                <li><a class="dropdown-item" href="#">Group Insurance</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown" id="nav-item-rigth">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                For Providers
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Practo Assured</a></li>
+                                <li><a class="dropdown-item" href="#">Practo Prime</a></li>
+                                <li><a class="dropdown-item" href="#">Software for providers</a></li>
+                                <li><a class="dropdown-item" href="#">List your practice for free</a></li>
+                                <li><a class="dropdown-item" href="#">ABDM</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Security & Help
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Data Security</a></li>
+                                <li><a class="dropdown-item" href="#">Help</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button id="login">Login / Signup</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <div class="search-bar w-75">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Location
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div role="separator" class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with dropdown button">
+            </div>
+        </div>
+    </div>
+
+<!--    hero section -->
+    <div class="container mt-5">
+        <div class="hero-cards">
+            <div class="card rounded-4" style="width: 14rem;">
+                <div class="img-hero-con bg-primary w-100 rounded-4">
+                     <img src="./image/hero-cards/dweb_instant_video_consulation.png" class="img-hero"  alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Instant Video Consultation</h5>
+                    <p class="card-text"> connect with 60s</p>
+
+                </div>
+            </div>
+
+            <div class="card rounded-4" style="width: 14rem;">
+                <div class="img-hero-con bg-primary w-100 rounded-4">
+                    <img src="./image/hero-cards/dweb_find_doctors.png" class="img-hero"  alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Find Doctor Near You</h5>
+                    <p class="card-text"> Confirm Appointments</p>
+
+
+                </div>
+            </div>
+
+            <div class="card rounded-4" style="width: 14rem;">
+                <div class="img-hero-con bg-primary w-100 rounded-4">
+                    <img src="./image/hero-cards/dweb_lab_tests.png" class="img-hero"  alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Lab Tests</h5>
+                    <p class="card-text pb-4"> Safe and Trusted Labs  <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card rounded-4" style="width: 14rem;">
+                <div class="img-hero-con bg-primary w-100 rounded-4">
+                    <img src="./image/hero-cards/surgeries-2b.png" class="img-hero"  alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Surgeries</h5>
+                    <p class="card-text">Safe and trusted surgery centers</p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+<!--    card carousal -->
+    <div class="container mt-5 mb-5 borderq"   >
+
+        <p class="fs-2 fw-semibold">Book an appointment for an in-clinic consultation</p>
+        <p class="fs-4">Find experienced doctors across all specialties</p>
+
+        <div id="cards-wrapper">
+
+            <button class="scroll-btn prev-btn" onclick="scrollCards(-1)"> < </button>
+
+            <div class="card-container borderq" id="cardContainer">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./image/card_apponintment/sp-dentist@2x.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dentist</h5>
+                        <p class="card-text">Teething trouble? Schedule a dental checkup </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./image/card_apponintment/sp-gynecologist@2x.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gynecologist/Obstetrician</h5>
+                        <p class="card-text">Explore for women's health, pregnancy and infertility treatments  </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./image/card_apponintment/sp-dietitian@2x.jpg" class="card-img-top" alt="...">
+
+                    <div class="card-body pb-4">
+                        <h5 class="card-title">Dietitian/Nuetrition</h5>
+                        <p class="card-text">Get guidance on eating right, weight management and sports nutrition </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./image/card_apponintment/sp-physiotherapist@2x.jpg" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Physiotherapist</h5>
+                        <p class="card-text">Pulled a muscle? Get it treated by a trained physiotherapist </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./image/card_apponintment/sp-physiotherapist@2x.jpg" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Physiotherapist</h5>
+                        <p class="card-text">Pulled a muscle? Get it treated by a trained physiotherapist </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./image/card_apponintment/sp-physiotherapist@2x.jpg" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Physiotherapist</h5>
+                        <p class="card-text">Pulled a muscle? Get it treated by a trained physiotherapist </p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./image/card_apponintment/sp-physiotherapist@2x.jpg" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Physiotherapist</h5>
+                        <p class="card-text">Pulled a muscle? Get it treated by a trained physiotherapist </p>
+                    </div>
+                </div>
+            </div>
+            <button class="scroll-btn next-btn" onclick="scrollCards(1)"> > </button>
+        </div>
+    </div>
+
+<!--    Testimonial carousel-->
+    <div class="container borderq" >
+        <div id="carouselExampleIndicators" class="carousel slide flex-center " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner borderq ">
+                <div class="carousel-item active">
+                    <img src="/image/caroucel/Screenshot%20from%202026-06-15%2018-18-30.png" class="d-block cerousel-img" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/caroucel/Screenshot%20from%202026-06-15%2018-18-33.png" class="d-block cerousel-img" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/caroucel/Screenshot%20from%202026-06-15%2018-18-35.png" class="d-block cerousel-img" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+<!--    Download app-->
+
+    <div class="container-fluid container-app">
+        <div class="row mb-5" id="app-Download">
+            <div class="col d-flex justify-content-center">
+                <img src="./image/footer-img.png" alt="app image" id="app-image">
+            </div>
+            <div class="col justify-content-center">
+                <div>
+                    <P class="display-5">Download the Practo app</P>
+                    <P style="width: 40%">Access video consultation with India’s top doctors on the Practo app. Connect with doctors online, available 24/7, from the comfort of your home.</P>
+                </div>
+                <div>
+                    <p>Get the link to download the app</p>
+                    <div class="w-50">
+                        <form>
+                            <div class="input-group mb-3" id="num-wrapper">
+                                <span class="input-group-text" id="inputGroup-sizing-default">+91</span>
+                                <input type="tel" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="form-num" required>
+                            </div>
+                            <button type="submit" class="btn btn-info mb-2" onclick="validateNumber()">Send SMS</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-secondary btn-lg">Download app</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--    footer-->
+    <footer>
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="col">
+                    <p>Practo</p>
+                    <ul>
+                        <li>About</li>
+                        <li>Blog</li>
+                        <li>Career</li>
+                        <li>Press</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <p>For Patients</p>
+                    <ul>
+                        <li>Search for Doctor</li>
+                        <li>Search for Clinics</li>
+                        <li>Search for Hospitals</li>
+                        <li>Press</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <div>
+                        <p>For doctor</p>
+                        <ul>
+                            <li>Practo Profile</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p>For Clinics</p>
+                        <ul>
+                            <li>Ray by Practo</li>
+                            <li>Practo Research</li>
+                            <li>Ray Tab</li>
+                            <li>Practo Pro</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <p>For Hospitals</p>
+                    <ul>
+                        <li>Insta by Practo</li>
+                        <li>Quickwell by Practo</li>
+                        <li>Practo Profile</li>
+                        <li>Practo Research</li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <p>More</p>
+                    <ul>
+                        <li>Help</li>
+                        <li>Developers<li>
+                        <li>Privacy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <p>Social</p>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter<li>
+                        <li>LinkedIn</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="footer-bottom">
+                <img src="./image/white_practo_logo.svg" alt="logo" id="footer-logo">
+                <p>Copyright 2017. Practo. All right reserved</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
